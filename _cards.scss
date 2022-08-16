@@ -14,12 +14,6 @@
     }
 }
 
-.card{
-    margin-bottom: 20px;
-    border: none;
-    align-content: center;
-    align-items: center;
-}
 
 .container{
     margin-bottom: 10%;
@@ -53,6 +47,14 @@
     .prod:focus, .prod:hover {
         box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
     }
+
+    .card{
+        margin-bottom: 20px;
+        border: none;
+        align-content: center;
+        align-items: center;
+    }
+    
 
     .card-img-top{
         margin-top:10px;
