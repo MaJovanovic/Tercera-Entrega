@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Nunito&display=swap');
+@import "_variables";
+@import "_header";
+@import "_navbarFooter";
+@import "_cards";
+
+*{
+    margin: 0;
+    padding: 0;
+    border:0;
+    font-family: $font1;
+}

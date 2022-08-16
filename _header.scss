@@ -1,0 +1,28 @@
+.logo{
+    height: 50%;
+    width: 50%;
+    margin-bottom: 70px;
+} 
+
+
+.portada{
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+
+
+    animation-name: portada;
+    animation-timing-function: ease-in;
+    animation-duration: 1s;
+
+    @keyframes portada{
+        0%{
+            width: 20%;
+        }
+        
+        100%{
+            width: 100%;
+        }
+    }
+}
