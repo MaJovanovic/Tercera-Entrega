@@ -1,0 +1,20 @@
+.texto{
+    padding-top: 70px;
+    color: rgb(109, 131, 253);
+}
+
+@mixin bio($height, $width, $border, $padding) {
+    height: $height;
+    width: $width;
+    background-color: $border;
+    padding: $padding;
+
+}
+
+.gato{
+    @include bio(auto,300px,rgb(212, 195, 255), 20px )
+    
+}
+.perro{
+    @include bio(auto,350px ,rgb(166, 172, 255), 20px)
+}

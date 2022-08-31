@@ -1,26 +1,48 @@
-.cards{
-    display: flex;
-    padding-top: 10%;
-    padding-bottom: 20%;
-
-    h4{    
-        color: $color1;
+    .card-title{    
+        color: $color3;
         font-family: $font1;
+        font-size: 25px;
+        text-align: center;
+    }
+    
+    .card-title--2{
+        @extend .card-title;
+        color: #c98839;
+    }
+
+    .card-title--3{
+        @extend .card-title;
+        color: #bd7318; 
+    }
+    
+    .card-title--4{
+        @extend .card-title;
+        color: #864e09; 
     }
     
     .card-img-top{
         height: 130px;
         width: 130px;   
     }
-}
+
 
 
 .container{
+    padding-top: 100px;
     margin-bottom: 10%;
+
+    p{
+        text-align: center;
+    }
 
     .publ{
         width: 400px;
         height: 400px;
+    }
+
+    .publ2{
+        width: 200px;
+        height: 200px;
     }
 
     .form-inline{
@@ -33,8 +55,13 @@
     }
 
     .tienda{
-        padding-top: 100px;
+
+        .card-img-top{
+            width: 200px;
+            height: 200px;
+        }
     }
+
     .prod {
         padding-left:0;
         padding-right:0;
@@ -54,10 +81,17 @@
         align-content: center;
         align-items: center;
     }
-    
 
     .card-img-top{
         margin-top:10px;
+    }
+}
+
+.contacto{
+    .card-img-top{
+        margin-top: 70px;
+        width: 80px;
+        height: 80px;
     }
 }
 

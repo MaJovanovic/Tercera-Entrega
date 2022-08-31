@@ -48,6 +48,10 @@
   margin-top: 200px;
   width: 100%;
 }
+.navbar .logo {
+  height: auto;
+  width: 70%;
+}
 
 footer {
   background-color: #6E85B7;
@@ -57,7 +61,7 @@ footer {
   padding: 20px;
 }
 footer p {
-  text-transform: capitalize;
+  font-size: 20px;
 }
 footer i {
   letter-spacing: 20px;
@@ -68,26 +72,44 @@ footer i:hover {
   color: #F2A950;
 }
 
-.cards {
-  display: flex;
-  padding-top: 10%;
-  padding-bottom: 20%;
-}
-.cards h4 {
-  color: #6E85B7;
+.card-title, h2, .card-title--4, .card-title--3, .card-title--2 {
+  color: #F2A950;
   font-family: "Nunito", sans-serif;
+  font-size: 25px;
+  text-align: center;
 }
-.cards .card-img-top {
+
+.card-title--2 {
+  color: #c98839;
+}
+
+.card-title--3 {
+  color: #bd7318;
+}
+
+.card-title--4 {
+  color: #864e09;
+}
+
+.card-img-top {
   height: 130px;
   width: 130px;
 }
 
 .container {
+  padding-top: 100px;
   margin-bottom: 10%;
+}
+.container p {
+  text-align: center;
 }
 .container .publ {
   width: 400px;
   height: 400px;
+}
+.container .publ2 {
+  width: 200px;
+  height: 200px;
 }
 .container .form-inline {
   margin-left: 2%;
@@ -96,8 +118,9 @@ footer i:hover {
   background-color: #C4D7E0;
   border: none;
 }
-.container .tienda {
-  padding-top: 100px;
+.container .tienda .card-img-top {
+  width: 200px;
+  height: 200px;
 }
 .container .prod {
   padding-left: 0;
@@ -119,6 +142,12 @@ footer i:hover {
   margin-top: 10px;
 }
 
+.contacto .card-img-top {
+  margin-top: 70px;
+  width: 80px;
+  height: 80px;
+}
+
 .row {
   margin-right: auto;
   margin-left: auto;
@@ -128,9 +157,99 @@ a {
   transition: 0.25s all;
 }
 
+.texto {
+  padding-top: 70px;
+  color: rgb(109, 131, 253);
+}
+
+.gato {
+  height: auto;
+  width: 300px;
+  background-color: rgb(212, 195, 255);
+  padding: 20px;
+}
+
+.perro {
+  height: auto;
+  width: 350px;
+  background-color: rgb(166, 172, 255);
+  padding: 20px;
+}
+
+.instrucciones--a {
+  color: #6D7FF2;
+}
+
+.instrucciones--b {
+  color: #6778E6;
+}
+
+.instrucciones--c {
+  color: #5C6BCC;
+}
+
+.instrucciones--d {
+  color: #525FB8;
+}
+
+.instrucciones--e {
+  color: #2E3566;
+}
+
+.form {
+  margin-top: 50px;
+}
+.form .cont {
+  padding: 30px;
+  background-color: #cad1ff;
+}
+
+.form_txt {
+  color: #864e09;
+}
+
+.li_txt {
+  font-size: 20px;
+}
+.li_txt .list {
+  margin-top: 40px;
+}
+
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
 * {
   margin: 0;
   padding: 0;
   border: 0;
   font-family: "Nunito", sans-serif;
+}
+
+h1 {
+  color: #F2A950;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+p {
+  font-size: 20px;
+}
+
+h2 {
+  font-size: 50px;
 }/*# sourceMappingURL=estilo.css.map */

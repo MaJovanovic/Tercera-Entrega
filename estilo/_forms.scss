@@ -1,0 +1,50 @@
+$colores: (a:#6D7FF2,
+    b:#6778E6,
+    c:#5C6BCC,
+    d:#525FB8,
+    e:#2E3566);
+
+@each $red,
+$color in $colores {
+    .instrucciones--#{$red} {
+        color: $color;
+    }
+}
+
+.form{
+    margin-top: 50px;
+    .cont{
+        padding: 30px;
+        background-color: #cad1ff;
+    }
+}
+
+.form_txt{
+    color: #864e09;
+}
+
+
+
+.li_txt{
+    font-size: 20px;
+    .list{
+        margin-top: 40px;
+    }
+}
+
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
